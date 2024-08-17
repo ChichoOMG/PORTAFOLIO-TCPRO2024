@@ -1,13 +1,21 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: "Montserrat", sans-serif;
 }
 main{
     margin: 0;
     padding: 0;  
 }
+
+h2{
+    font-size: 3rem;
+    color: rgb(255, 94, 0);
+}
 #proyecto-1{
     background-image: url("images/copia_google.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .proyecto{
@@ -19,7 +27,6 @@ main{
 #presentacion{
     background-image: url(images/20c6e7e27341a9a09c00821a99cfb17a_waifu2x_art_scan_noise3_scale.png);
     background-size: repeat;
-
     margin: 0;
     color: rgb(25, 25, 25); 
 }
@@ -28,6 +35,43 @@ main{
     color: rgb(42, 42, 42);
 }
 
+.lead{
+    font-weight: 400;
+}
+
 .navbar .nav-link {
     color: white; /* Cambia este color por el que prefieras */
+}
+
+.text-bg-primary{ 
+    padding: 0.4rem;
+    background: rgb(212,68,40);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 5px;
+background: linear-gradient(90deg, rgba(212,68,40,1) 0%, rgba(228,30,77,1) 31%, rgba(203,255,5,1) 77%, rgba(54,255,219,1) 90%) !important;
+}
+
+.botonp{
+    background-color: rgb(90, 66, 246);
+}
+.botonp:hover{
+    background-color: rgb(14, 14, 14);
+    border-color:  rgb(14, 14, 14);
+}
+
+.botons{
+   border-color:  rgb(14, 14, 14);
+   color: black;
+}
+.botons:hover{
+    background-color:  rgb(14, 14, 14);
+}
+
+.descripcion{
+    color: black;
+}
+
+.feature.col h3{
+    font-weight: 300;
 }
