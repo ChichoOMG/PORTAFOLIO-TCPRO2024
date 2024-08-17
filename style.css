@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin: 0;
+    padding: 0;  
+}
+#proyecto-1{
+    background-image: url("images/copia_google.png");
+}
+
+.proyecto{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#presentacion{
+    background-image: url(images/20c6e7e27341a9a09c00821a99cfb17a_waifu2x_art_scan_noise3_scale.png);
+    background-size: repeat;
+
+    margin: 0;
+    color: rgb(25, 25, 25); 
+}
+
+#app{
+    color: rgb(42, 42, 42);
+}
+
+.navbar .nav-link {
+    color: white; /* Cambia este color por el que prefieras */
+}

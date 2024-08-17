@@ -1,0 +1,50 @@
+//alert("Hola Mundo");
+
+var app = document.getElementById('app');
+
+var typewriter = new /* cuando comienza con may[uscula, son objetos */ Typewriter(app, {
+  loop: true,
+  delay: 75,
+});
+
+//Usar el punto es para llamar a una propiedad o una acci[on del objeto
+// Las acciones se distinguen por los par[entesis ()
+typewriter
+  .pauseFor(2500)
+  .typeString('<span style="color: white;">Soy Rocio Valero.</span>')
+  .pauseFor(300)
+  .deleteChars(13)
+  .typeString('<strong style="color: white;">Mujer.</strong>')
+  .pauseFor(300)
+  .deleteChars(6)
+  .typeString('<strong style="color: white;">Estudiante.</strong>')
+  .pauseFor(300)
+  .deleteChars(11)
+  .typeString('<strong style="color: white;">Artista.</strong>')
+  .pauseFor(300)
+  .deleteChars(8)
+  .typeString('<strong style="color: white;">TI.</strong>')
+  .pauseFor(300)
+  .deleteChars(11)
+  .pauseFor(1000)
+  .start();
+
+
+
+var appTwo = document.getElementById('dinamicText');
+
+var typewriterTwo = new Typewriter(appTwo, {
+  loop: true,
+  delay: 75,
+});
+
+typewriterTwo
+  .pauseFor(2500)
+  .typeString('¡Gracias por visitar mi portafolio!')
+  .pauseFor(300)
+  .deleteChars(22)
+  .typeString('estar aquí.')
+  .typeString('tomarte el tiempo.')
+  .pauseFor(1000)
+  .start();
+
