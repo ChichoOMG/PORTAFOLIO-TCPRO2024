@@ -12,8 +12,21 @@ h2{
     font-size: 3rem;
     color: rgb(255, 94, 0);
 }
-#proyecto-1{
+#proyecto-1, #proyecto-2, #proyecto-3{
     background-image: url("images/copia_google.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#proyecto-2{
+    background-image: url("images/portafolioss.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#proyecto-3{
+    background-image: url("images/paginapersonal.JPG");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -22,6 +35,7 @@ h2{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+   
 }
 
 #presentacion{
@@ -74,4 +88,19 @@ background: linear-gradient(90deg, rgba(212,68,40,1) 0%, rgba(228,30,77,1) 31%, 
 
 .feature.col h3{
     font-weight: 300;
+}
+
+#contacto{
+    background-color: orangered;
+    width: 100%;
+}
+
+.Typewriter__wrapper{
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+
+.nav-item a{
+    font-size: 1.5rem;
+    
 }
